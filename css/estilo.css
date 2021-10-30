@@ -1,0 +1,31 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+h1 {
+	color: #FFFFFF;
+	background-color: #9512bd;
+	padding: 10px;
+	border-radius:0 20px;
+}
+h2 {
+	color: #000000;
+	background-color: #c4ec33;
+	padding: 8px;
+	border-radius:0 20px;
+	width: 36%;
+}
+img{
+	text-align: center;
+}
+.filas{
+	display: table;
+	border-spacing: 10px;
+}
+.columna{
+	background-color: #9512bd;
+	padding: 10px;
+	border-radius: 20px;
+	display: table-cell;
+}
