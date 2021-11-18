@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
     
     font-family: Calibri;
@@ -5,9 +10,11 @@ body{
 }
 h1 {
 	color: #FFFFFF;
-	background-color: #9512bd;
-	padding: 10px;
+	background-color: #26f3e27c;
+	padding: 15px;
 	border-radius:0 20px;
+	text-align: center;
+	text-shadow: 10px 5px 5px black;
 }
 h2 {
 	color: #000000;
@@ -22,10 +29,23 @@ img{
 .filas{
 	display: table;
 	border-spacing: 10px;
+	margin: 0px;
 }
 .columna{
-	background-color: #9512bd;
+	background-color: #e100ffa2;
 	padding: 10px;
 	border-radius: 20px;
+}
+#colum1{
+	background-color: rgba(150, 123, 123, 0.712); 
+	width: 2%; 
+	display: table-cell;
+}
+#colum2{
+	width: 15%;
+	color: white;
+	display: table-cell;
+}
+.colucolu{
 	display: table-cell;
 }

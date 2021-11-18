@@ -1,6 +1,7 @@
 var jugar = document.getElementById("jugar");
 var jugando = document.getElementById("jugando");
 var msj = document.getElementById("msj");
+var menu = document.getElementById("menu");
 
 var aux;
 var soynoob;
@@ -10,6 +11,7 @@ var perderr = false;
 
 jugar.addEventListener("click", juego);
 jugando.addEventListener("click", juegoDos);
+menu.addEventListener("click", meniu);
 
 $(document).ready(function(){
 
@@ -41,7 +43,7 @@ function juego(){
         $("#juegaso").fadeOut(2000, "");
         soynoob = Math.floor((Math.random()*100)+1);
         $("#msj").fadeOut();
-        $("#formu").fadeOut(300, "");
+        $(".columna").fadeOut(300, "");
         $("#juegaso").fadeIn(2000, "");
         ganarr = false;
         perderr = false;
